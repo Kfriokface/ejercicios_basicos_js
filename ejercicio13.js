@@ -11,6 +11,7 @@ const names = [
   'Jessica',
   'Marc'
 ];
+
 function nameFinder(nameList, name) {
     const posicion = nameList.indexOf(name);
     if (posicion !== -1) {
