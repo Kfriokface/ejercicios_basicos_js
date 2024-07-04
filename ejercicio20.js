@@ -18,3 +18,5 @@ for (let toy of toys) {
     popularToys.push(toy);
   }
 }
+
+console.log(popularToys);
