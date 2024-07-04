@@ -14,6 +14,7 @@ const toys = [
 const popularToys = [];
 
 for (let toy of toys) {
-  if (!toy.name.includes("gato")) {
-    toysSelected.push(toy);  }
+  if (toy.sellCount > 15 ) {
+    popularToys.push(toy);
+  }
 }
