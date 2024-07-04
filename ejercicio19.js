@@ -12,7 +12,8 @@ const toysSelected = [];
 
 for (let toy of toys) {
   if (!toy.name.includes("gato")) {
-    toysSelected.push(toy);  }
+    toysSelected.push(toy);
+  }
 }
 
 console.log(toysSelected);
